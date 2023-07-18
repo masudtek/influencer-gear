@@ -1,0 +1,29 @@
+@media screen and (max-width: 572px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-logo, .nav-bar{
+        width: 100%;
+    }
+    .logo-text{
+        padding-left: 20px;
+    }
+    .nav-bar ul {
+        flex-direction: column;
+    }
+    .nav-bar a{
+        margin-left: 160px
+    }
+    .influencer-banner-container{
+        margin-top: 20px;
+        /* margin-bottom: 50x; */
+        flex-direction: column;
+    }
+    .influencer-banner-image img{
+        margin-top: 20px;
+        /* margin-right: 30px; */
+        padding-right: 30px;
+        width: 100%;
+    }
+    
+}
